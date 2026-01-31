@@ -10,9 +10,4 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: echo "Frontend pipeline is working"
-- uses: actions/setup-node@v4
-  with:
-    node-version: 18
 
-- run: npm install
-- run: npm run build
