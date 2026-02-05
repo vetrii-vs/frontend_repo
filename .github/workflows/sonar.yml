@@ -25,4 +25,5 @@ jobs:
           args: >
             -Dsonar.projectKey=vetrii-vs_frontend_repo
             -Dsonar.organization=vetrii-vs
-            -Dsonar.sources=.
+            -Dsonar.sources=src
+
