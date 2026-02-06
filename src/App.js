@@ -15,8 +15,9 @@ function App() {
 
   // ✅ Fetch cases (SAFE)
   useEffect(() => {
-    fetch('http://localhost:8080/api/cases')
-      .then(res => res.json())
+
+fetch("http://localhost:8080/api/cases")
+    .then(res => res.json())
       .then(data => {
         console.log("API response:", data); // 🔍 debug
         if (Array.isArray(data)) {
